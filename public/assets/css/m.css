@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+body {
+  font-family: 'Kalam';
+  background: #000;
+  color: #fff;
+  line-height: 1.3;
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: url(https://i.vimeocdn.com/video/864349200-2e7c92d9cb8d0b3108996b75bd1178745610921e5a8b9d54a7b741de2dad8623-d?mw=1000&mh=527) center no-repeat;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  margin: 20vh auto;
+  max-width: 980px;
+  font-size: 2em;
+}
+.container h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.container p {
+  margin-top: 0;
+}
+.container a {
+  color: inherit;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 0.4em 0.8em;
+  border-radius: 0.2em;
+  display: inline-block;
+}
